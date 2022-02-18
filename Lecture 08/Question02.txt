@@ -1,0 +1,12 @@
+Select all the correct statements from the given options.
+
+int x = _07_08_09_; is a valid usage of Underscore
+int x = 07_08_09; is a valid usage of Underscore
+int x = 0xA_B;
+int x = 1_____________0;
+
+Ans :-
+
+int x = 07_08_09; is a valid usage of Underscore
+int x = 0xA_B;
+int x = 1_____________0;
