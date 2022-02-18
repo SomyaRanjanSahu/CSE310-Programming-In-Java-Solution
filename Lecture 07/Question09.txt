@@ -1,0 +1,14 @@
+Select all the correct statements.
+
+double d = 7.; is a valid statement
+double d = .7; is a valid statement
+double d = 7; is a valid statement
+double d = 1e1; is a valid statement
+The suffix d or D is a must while writing a double literal
+
+Ans :-
+
+double d = 7.; is a valid statement
+double d = .7; is a valid statement
+double d = 7; is a valid statement
+double d = 1e1; is a valid statement
