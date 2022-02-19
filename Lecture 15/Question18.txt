@@ -1,0 +1,12 @@
+Given:
+String[] elements = { "abc", "xyz", "pqr" };
+String first = (elements.length > 0) ? elements[0] : null;
+What is the result ?
+A compilation error occurs
+An exception is thrown at runtime
+The variable 'first' is set to null
+The variable 'first' is set to "abc"
+
+Ans :-
+
+The variable 'first' is set to "abc"
