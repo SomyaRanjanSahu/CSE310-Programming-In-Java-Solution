@@ -1,0 +1,32 @@
+Method overloading is a feature which allows multiple methods with same name and different parameters in the same class.
+
+Method overriding is a feature where we specialize (or modify) a method behaviour which is already present in the superclass. This takes places only when we have a class extending another class.
+
+Select all the correct statements from the below code:
+class A {
+	public void printMe(int number) { // statement 1 
+		System.out.println(number);
+	}
+	public void printMe(boolean flag) { // statement 2 
+		System.out.println(flag);
+	}
+	public void printMe(int number, boolean flag) { // statement 3 
+		System.out.println(number + " : " + flag);
+	}
+}
+class B extends A {
+	public void printMe(int number) { // statement 4 
+		System.out.println("The double of " + number + " is : " + (number * 2));
+	}
+}
+Statements 1, 2 and 3 in class A contain overloaded versions of method printMe.
+Statements 1, 2 and 3 in class A contain overridden versions of method printMe.
+The method in statement 4, overrides the method declared in statement 2.
+The method in statement 4, overrides the method declared in statement 1.
+The method declaration in statement 3 has more parameters than the methods declared in statements 1 and 2, hence it will not be considered as a overloaded version of printMe.
+
+Ans :-
+
+Statements 1, 2 and 3 in class A contain overloaded versions of method printMe.
+
+The method in statement 4, overrides the method declared in statement 1.
