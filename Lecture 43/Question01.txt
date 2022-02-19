@@ -1,0 +1,18 @@
+In Java, when we do not want a class to ever have subclasses, we declare that class as final.
+
+In Java we have many final classes. For example, like the String and all the wrapper classes like Integer, Float etc.
+
+Select all the correct statements given below:
+
+class A {} // statement 1
+class final B extends A {} // statement 2
+Statement 2 will result in compilation error. Since class A is not marked as final, class B which extends class A, cannot mark itself as final.
+Object class declared in java.lang package, is a good example of final class.
+Below is a valid code:
+public final interface A {
+}
+We declare a class as final, when we do not want someone to change its implementation by subclassing it.
+
+Ans :-
+
+We declare a class as final, when we do not want someone to change its implementation by subclassing it.
