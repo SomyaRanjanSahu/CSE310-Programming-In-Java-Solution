@@ -1,0 +1,19 @@
+Read the code below:
+void waitForSignal() throws InterruptedException {
+    Object obj = new Object();
+    synchronized (Thread.currentThread()) {
+        obj.wait();
+        obj.notify();
+     }
+}
+Which statement is true?
+Executing the code results in InterruptedException.
+The code throws IllegalMonitorStateException.
+The code throws a TimeoutException after ten minutes.
+Reversing the order of obj.wait() and obj.notify() might cause this method to complete normally.
+A call to notify() or notifyAll() from another thread might cause this method to complete normally.
+This code does NOT compile unless "obj.wait()" is replaced with "((Thread)obj).wait()".
+
+Ans :-
+
+The code throws IllegalMonitorStateException.
